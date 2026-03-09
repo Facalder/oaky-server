@@ -7,7 +7,9 @@
 		"prepare": "husky"
 	},
 	"dependencies": {
+		"@neondatabase/serverless": "^1.0.2",
 		"dotenv-flow": "^4.1.0",
+		"drizzle-orm": "^0.45.1",
 		"hono": "^4.12.5",
 		"lint-staged": "^16.3.2",
 		"winston": "^3.19.0",
@@ -19,7 +21,9 @@
 		"@commitlint/cli": "^20.4.3",
 		"@commitlint/config-conventional": "^20.4.3",
 		"@types/bun": "latest",
-		"husky": "9.1.7"
+		"drizzle-kit": "^0.31.9",
+		"husky": "9.1.7",
+		"tsx": "^4.21.0"
 	},
 	"lint-staged": {
 		"*.{js,jsx,ts,tsx}": [
