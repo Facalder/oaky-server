@@ -25,5 +25,7 @@
 	},
 	"[css]": {
 		"editor.defaultFormatter": "biomejs.biome"
-	}
+	},
+	"typescript.preferences.importModuleSpecifier": "non-relative",
+	"javascript.preferences.importModuleSpecifier": "non-relative"
 }

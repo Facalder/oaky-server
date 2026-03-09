@@ -1,7 +1,7 @@
 {
 	"name": "oaky-server",
 	"scripts": {
-		"dev": "bun run --hot src/index.ts",
+		"dev": "bun run --hot src/server.ts",
 		"lint": "biome check --write",
 		"format": "biome format --write",
 		"prepare": "husky"
