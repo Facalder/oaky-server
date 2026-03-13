@@ -1,11 +1,5 @@
 {
 	"name": "oaky-server",
-	"scripts": {
-		"dev": "bun run --hot src/server.ts",
-		"lint": "biome check --write",
-		"format": "biome format --write",
-		"prepare": "husky"
-	},
 	"dependencies": {
 		"@neondatabase/serverless": "^1.0.2",
 		"dotenv-flow": "^4.1.0",
